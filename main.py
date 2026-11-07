@@ -12,7 +12,7 @@ def read_root():
 def somar(a: int, b: int):
     # Parte 1 e Estado Final Correto: a + b
     # (Para a Parte 2, você alterará temporariamente para: a - b)
-    return {"resultado": a - b}
+    return {"resultado": a + b}
 
 
 @app.get("/multiplicar/{a}/{b}")

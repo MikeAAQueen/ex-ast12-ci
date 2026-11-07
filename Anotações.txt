@@ -1,0 +1,5 @@
+• Qual foi a mensagem exata de erro que o Pytest imprimiu?
+AssertionError: assert {'resultado': -10} == {'resultado': 30}
+• O que ele esperava receber e o que ele recebeu de fato?
+Esperava receber: {'resultado': 30}
+Recebeu de fato: {'resultado': -10}
